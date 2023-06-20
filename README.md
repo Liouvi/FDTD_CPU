@@ -15,3 +15,8 @@ In order to compile and run:
 nvcc -o FDTD FDTD2D.cpp dataacc.cpp curl.cpp geometry.cpp sim.cpp sourcetime.cpp && ./FDTD
 ```
 
+To visualize the output run:
+
+```
+python3 visualize.py
+```
